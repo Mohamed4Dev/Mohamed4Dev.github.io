@@ -1,0 +1,99 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.aside {
+    height: 100vh;
+}
+
+.s1 {
+    color: #ccc;
+}
+
+.nav-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar-nav {
+    flex-direction: column !important;
+    padding-top: 25%;
+}
+
+.navbar-brand {
+    padding-top: 25%;
+    color: #000;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 1.5;
+    padding-left: 5%;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* .nav-item{
+    background-color: #09c;
+} */
+
+.hor{
+    list-style-type: none;
+}
+
+.icon {
+    color: #000;
+    font-size: 20px;
+}
+
+.icon:hover {
+    color: tomato;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+.mohamed_img {
+    border-radius: 50%;
+}
+
+.h2_hello {
+    font-size: 24px;
+    color: #bfbfbf;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.h1_mohamed {
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.p_hello {
+    font-size: 18px;
+    font-weight: 500;
+    color: #999;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .7;
+    background: #fff;
+}
+
+.content_1 {
+    background-image: url(../images/bg_1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
