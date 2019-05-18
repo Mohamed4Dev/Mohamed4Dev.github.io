@@ -1,99 +1,64 @@
+/* section 1 */
+
 * {
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
-.aside {
-    height: 100vh;
+body {
+    background: #00B285;
+    height: 100%;
 }
 
 .s1 {
-    color: #ccc;
+    height: 100vh;
+}
+
+/* background */
+
+.skewed-bg {
+    background-color: #222;
+    transform: skew(0deg, -9deg);
+    padding: 200px 0;
+    margin-top: -200px; 
+}
+
+.skewed-content {
+    transform: skew(0deg, 9deg)
+}
+
+/* navbar */
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav_div_ul {
+    font-size: 1.25rem;
 }
 
 .nav-link:hover {
-    color: #000;
-    text-decoration: none;
+    color: #fff !important;
 }
 
-.navbar {
-    display: inline-block;
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
-.navbar-nav {
-    flex-direction: column !important;
-    padding-top: 25%;
+/* content */
+
+.content {
+    color: #fff;
 }
 
-.navbar-brand {
-    padding-top: 25%;
-    color: #000;
-    font-weight: 900;
-    font-size: 34px;
-    line-height: 1.5;
-    padding-left: 5%;
+.span1_1 {
+    color: #EFB92A;
 }
 
-.nav-link {
-    font-size: 16px;
-    font-weight: 700;
+.div_content {
+    color: lightblue;
 }
 
-/* .nav-item{
-    background-color: #09c;
-} */
-
-.hor{
-    list-style-type: none;
-}
-
-.icon {
-    color: #000;
-    font-size: 20px;
-}
-
-.icon:hover {
-    color: tomato;
-}
-
-
-/* ----------------------------------------------------------------------- */
-
-.mohamed_img {
-    border-radius: 50%;
-}
-
-.h2_hello {
-    font-size: 24px;
-    color: #bfbfbf;
-    font-weight: 300;
-    line-height: 1.5;
-}
-
-.h1_mohamed {
-    letter-spacing: 1px;
-    font-weight: 900;
-}
-
-.p_hello {
-    font-size: 18px;
-    font-weight: 500;
-    color: #999;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    content: '';
-    opacity: .7;
-    background: #fff;
-}
-
-.content_1 {
-    background-image: url(../images/bg_1.jpg);
-    background-size: cover;
-    height: 100vh;
+._09c {
+    color: #EFB92A;
 }

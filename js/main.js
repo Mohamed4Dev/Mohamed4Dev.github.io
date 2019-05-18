@@ -1,8 +1,14 @@
-$(".nav-link").mouseover(function(){
-    $(this).css("text-decoration","underline"),
-    $(this).css("color","#000")
-})
-$(".nav-link").mouseout(function(){
-    $(this).css("text-decoration","none")
-    $(this).css("color","#999")
-})
+$('.container').animatedHeadline();
+
+$('.container').animatedHeadline({
+    animationType: "rotate-1",
+    animationDelay: 2500,
+    barAnimationDelay: 3800,
+    barWaiting: 800,
+    lettersDelay: 50,
+    typeLettersDelay: 150,
+    selectionDuration: 500,
+    typeAnimationDelay: 1300,
+    revealDuration: 600,
+    revealAnimationDelay: 1500
+  });
