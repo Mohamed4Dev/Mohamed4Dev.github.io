@@ -45,6 +45,10 @@ body {
     background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
+.w{
+    color: rgb(12, 191, 65);
+}
+
 /* content */
 
 .content {
